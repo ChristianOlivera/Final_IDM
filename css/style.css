@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 0;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+    background-image: url(/img/DRINKING.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.portada{
+    width: 100vw;
+    display: block;
+    margin: auto;
+}
+
+.portada_intro{
+    width: 90vw;
+    margin: auto;
+}
+
+.portada_intro > h2{
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+.portada_intro > p{
+    font-size: 1em;
+    padding: 10px;
+}
+
+.portada_intro > button{
+    background-color: transparent;
+    border: 1px solid #252525;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #252525;
+    color: #e8e8e8;
+    cursor: pointer;
+}
+
+.portada_imagen{
+    width: 90vw;
+    margin: auto;
+}
+
+.portada_imagen > img{
+    width: 90vw;
+}
+
+.navegacion{
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 90vw;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+}
+
+.navegacion_info{
+    padding: 20px;
+    margin: auto;
+}
+
+.navegacion_info > h3{
+    font-size: 1.4em;
+    color: #dadada;
+    padding-bottom: 20px;
+}
+
+.navegacion_info > p{
+    font-size: 1em;
+    color: #dadada;
+}
+
+.navegacion_imagenes{
+    width: 100%;
+}
+
+.navegacion_imagenes > img:nth-of-type(1) {
+    width: 90%;
+    position: absolute;
+    animation: navegacion 6s ease;
+}
+@keyframes navegacion {
+    0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+}
+
+.navegacion_imagenes > img:nth-of-type(2) {
+    width: 100%;
+    position: relative;
+    animation: navegacionCarrito 6s ease;
+}
+@keyframes navegacionCarrito {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.compra{
+    display: block;
+    margin: auto;
+    width: 90vw;
+    margin-top: 20px;
+}
+
+.compra_info{
+    padding: 20px;
+    margin: auto;
+}
+
+.compra_info > h3{
+    font-size: 1.4em;
+    color: #252525;
+    padding-bottom: 20px;
+}
+
+.compra_info > p{
+    font-size: 1em;
+    color: #252525;
+}
+
+.compra_imagenes{
+    width: 100%;
+}
+
+.compra_imagenes > img:nth-of-type(1) {
+    width: 100%;
+    animation: compraVista 4s ease;
+}
+@keyframes compraVista {
+    0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+footer{
+    width: 100vw;
+    background-color: #252525;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo{
+    width: 100px;
+    height: 80px;
+    background-image: url(/img/DRINKING.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.footer_social{
+    width: 175px;
+    margin: 20px;
+}
+
+.footer_social > h4{
+    color: #c8c8c8;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.footer_social > ul {
+    list-style: none;
+    display: flex;
+} 
+
+.footer_social ul li a{
+    font-size: 1.8em;
+    padding-right: 25px;
+    color: #c8c8c8;
+}
+
+.footer_reservado{
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c8c8c8;
+}
+
+.footer_reservado > p{
+    font-size: 0.8em;
+}
