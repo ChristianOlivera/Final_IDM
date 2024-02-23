@@ -206,7 +206,7 @@ nav > ul > li > a > span{
     color: white;
 }
 #cerveza{
-    background-image: url(/img/cerveza/cerveza.jpg);
+    background-image: url(../img/cerveza/cerveza.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1320,7 +1320,7 @@ footer {
     }
     
     #cerveza{
-        background-image: url(img/cerveza/cerveza2.jpg);
+        background-image: url(/img/cerveza/cerveza2.jpg);
     }
     
     #espumante{
