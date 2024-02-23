@@ -1373,6 +1373,9 @@ footer {
         margin-left: 0px;
     }
 
+    .titulo{
+        font-size: 2.8em;
+    }
     #carrito{
         width: 160px;
         font-size: 0.7em;
