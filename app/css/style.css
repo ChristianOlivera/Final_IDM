@@ -206,41 +206,41 @@ nav > ul > li > a > span{
     color: white;
 }
 #cerveza{
-    background-image: url(./img/cerveza/cerveza.jpg);
+    background-image: url(/img/cerveza/cerveza.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #espumante{
-    background-image: url(./img/espumante/espumante.jpg);
+    background-image: url(/img/espumante/espumante.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #aperitivo{
-    background-image: url(./img/aperitivo/aperitivo.jpg);
+    background-image: url(/img/aperitivo/aperitivo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #vodka{
-    background-image: url(./img/vodka/vodka.jpg);
+    background-image: url(/img/vodka/vodka.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #vino{
-    background-image: url(./img/vino/vino.jpg);
+    background-image: url(/img/vino/vino.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 ul > #link > #combo{
-    background-image: url(./img/combo/combo.jpg);
+    background-image: url(/img/combo/combo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +257,7 @@ ul > #link > #combo{
     right: 0;
     height: 250px;
     margin: auto;
-    background-image: url(./img/vodka/vodka.jpg);
+    background-image: url(/img/vodka/vodka.jpg);
 }
 
 .banner_button{
@@ -387,7 +387,7 @@ ul > #link > #combo{
     margin-top: 20px;
     margin-left: 20px;
     padding: 15px;
-    background-image: url(./img/cerrar.png);
+    background-image: url(/img/cerrar.png);
     background-repeat: no-repeat;
     background-position: left;
     cursor: pointer;
@@ -515,7 +515,7 @@ ul > #link > #combo{
     height: 120px;
     border-left: 1px solid #25252570;
     cursor: pointer;
-    background-image: url(./img/borrar.png);
+    background-image: url(/img/borrar.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -547,7 +547,7 @@ ul > #link > #combo{
     transition: 2s all ease;
     width: 32px;
     height: 32px;
-    background-image: url(./img/acercarse.png);
+    background-image: url(/img/acercarse.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1320,26 +1320,26 @@ footer {
     }
     
     #cerveza{
-        background-image: url(./img/cerveza/cerveza2.jpg);
+        background-image: url(/img/cerveza/cerveza2.jpg);
     }
     
     #espumante{
-        background-image: url(./img/espumante/espumante2.jpg);
+        background-image: url(/img/espumante/espumante2.jpg);
     }
     
     #aperitivo{
-        background-image: url(./img/aperitivo/aperitivo2.jpg);
+        background-image: url(/img/aperitivo/aperitivo2.jpg);
     }
     
     #vodka{
-        background-image: url(./img/vodka/vodka2.jpg);
+        background-image: url(/img/vodka/vodka2.jpg);
     }
     #vino{
-        background-image: url(./img/vino/vino2.jpg);
+        background-image: url(/img/vino/vino2.jpg);
     }
     
     ul > #link > #combo{
-        background-image: url(./img/combo/combo2.jpg);
+        background-image: url(/img/combo/combo2.jpg);
     }
 
     .checkout_product_info > h3{
