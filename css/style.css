@@ -101,6 +101,8 @@ h1{
 .navegacion_imagenes > img:nth-of-type(1) {
     width: 90%;
     position: absolute;
+}
+.navegacion_imagenes > img:nth-of-type(1).animada {
     animation: navegacion 6s ease;
 }
 @keyframes navegacion {
@@ -118,7 +120,11 @@ h1{
 .navegacion_imagenes > img:nth-of-type(2) {
     width: 100%;
     position: relative;
+    opacity: 0;
+}
+.navegacion_imagenes > img:nth-of-type(2).animada {
     animation: navegacionCarrito 6s ease;
+    opacity: 1;
 }
 @keyframes navegacionCarrito {
     from {
@@ -158,7 +164,11 @@ h1{
 
 .compra_imagenes > img:nth-of-type(1) {
     width: 100%;
-    animation: compraVista 4s ease;
+    opacity: 0;
+}
+.compra_imagenes > img:nth-of-type(1).animada {
+    opacity: 1;
+    animation: compraVista 2.5s ease;
 }
 @keyframes compraVista {
     0% {
