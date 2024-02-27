@@ -8,6 +8,7 @@ navigator.serviceWorker.register('/sw.js')
     })
 }
 document.getElementById('descargar_app').addEventListener('click', instalarPWA)
+document.getElementById('descargar_footer').addEventListener('click', instalarPWA)
 
 function instalarPWA() {
     if (deferredPrompt) {
