@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/img/icons/drinking48x48.png"/>
+    <link rel="icon" type="image/png" href="/img/icons/drinking48x48.png">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,13 +24,13 @@
                 <button id="descargar_app">Descargar App</button>
             </div>
             <div class="portada_imagen">
-                <img src="/img/portada.png" alt="Presentacion de App en Dispositivos Moviles">
+                <img src="/img/portada2.png" alt="Presentacion de App en Dispositivos Moviles">
             </div>
         </section>
         <section class="navegacion">
             <div class="navegacion_info">
                 <h3>Observa y controla lo que quieras comprar</h3>
-                <p>Navega facilmente por nuestra App, podras ver y agregar cada producto al carrito de compras, de esta forma veras lo que llevas de forma clara y sencilla</p>
+                <p>Navega facilmente por nuestra App, podras ver y agregar cada producto al carrito de compras, de esta forma veras lo que llevas de forma clara y sencilla.</p>
             </div>
             <div class="navegacion_imagenes">
                 <img src="/img/navegacion.png" alt="Navegacion de la App">
@@ -40,7 +40,7 @@
         <section class="compra">
             <div class="compra_info">
                 <h3>Decide sobre tu compra</h3>
-                <p>Al finalizar la compra podrás ver lo que has comprado hasta el momento, además de decidir donde y cuando tener tu pedido</p>
+                <p>Al finalizar la compra podrás ver lo que has comprado hasta el momento, además de decidir donde y cuando tener tu pedido.</p>
             </div>
             <div class="compra_imagenes">
                 <img src="/img/compra_vista.png" alt="Listado de compra y formulario de envio de la App">
@@ -61,15 +61,18 @@
                 </ul>
             </div>
             <div class="footer_descarga">
-                <img id="descargar_footer" src="/img/drinking_boton1.png" alt="Boton de descarga de Aplicacion Drinking">
+                <picture>
+                    <source srcset="img/drinking_boton.png" media="(min-width: 601px)">
+                    <img id="descargar_footer" src="/img/drinking_boton1.png" alt="Boton de descarga de Aplicacion Drinking">
+                </picture>
             </div>
         </div>
         <div class="footer_reservado">
             <p>&copy; 2024 DRINKING. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/48f4d87eaa.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    <script src="/sw.js"></script>
 </body>
-<script src="https://kit.fontawesome.com/48f4d87eaa.js" crossorigin="anonymous"></script>
-<script src="/js/script.js"></script>
-<script src="/sw.js"></script>
 </html>
