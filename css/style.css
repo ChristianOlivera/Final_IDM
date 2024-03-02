@@ -39,12 +39,12 @@ h1{
 }
 
 .portada_intro > h2{
-    font-size: 1.8em;
+    font-size: 2em;
     padding: 10px;
 }
 
 .portada_intro > p{
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 10px;
     line-height: 1.4;
 }
@@ -86,7 +86,7 @@ h1{
 }
 
 .navegacion_info > h3{
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #dadada;
     padding-bottom: 20px;
 }
@@ -153,7 +153,7 @@ h1{
 }
 
 .compra_info > h3{
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #252525;
     padding-bottom: 20px;
 }
@@ -286,14 +286,34 @@ footer{
         margin: auto;
     }
 
+    .portada_intro > h2{
+        font-size: 2.2em;
+    }
+
     .portada_intro > p{
         font-size: 1.2em;
     }
 
+    .navegacion_info > h3{
+        font-size: 2em;
+    }
+    
+    .navegacion_info > p{
+        font-size: 1.2em;
+    }
+
     .compra_imagenes > img:nth-of-type(1) {
-        width: 80%;
+        width: 75%;
         display: block;
         margin: auto;
+    }
+
+    .compra_info > h3{
+        font-size: 2em;
+    }
+    
+    .compra_info > p{
+        font-size: 1.2em;
     }
 
     .footer_descarga img{        
@@ -325,7 +345,7 @@ footer{
 
 @media screen and (min-width: 601px) and (max-width: 800px) { 
     .portada_intro > h2{
-        font-size: 2em;
+        font-size: 2.4em;
     }
     
     .portada_intro > p{
@@ -339,34 +359,34 @@ footer{
     }
     
     .portada_imagen > img{
-        width: 60vw;
+        width: 70vw;
         display: block;
         margin: auto;
     }
 
     .navegacion_info > h3{
-        font-size: 1.8em;
+        font-size: 2.2em;
     }
     
     .navegacion_info > p{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .navegacion_imagenes > img:nth-of-type(1) {
         width: 70%;
-        left: 90px;
+        left: 100px;
     }
     .navegacion_imagenes > img:nth-of-type(2) {
         width: 80%;
-        left: 50px;
+        left: 60px;
     }
 
     .compra_info > h3{
-        font-size: 1.8em;
+        font-size: 2.2em;
     }
     
     .compra_info > p{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .compra_imagenes > img:nth-of-type(1) {
@@ -417,26 +437,26 @@ footer{
     }
     
     .portada_intro{
-        width: 45vw;
+        width: 50vw;
     }
     
     .portada_intro > h2{
-        font-size: 2.2em;
+        font-size: 2.4em;
     }
     
     .portada_intro > p{
-        font-size: 1.4em;
+        font-size: 1.6em;
         padding-bottom: 20px;
     }
 
     .portada_intro > button{
-        padding: 16px 22px;
-        border-radius: 12px;
-        font-size: 1.1em;
+        padding: 18px 24px;
+        border-radius: 14px;
+        font-size: 1.2em;
     }
     
     .portada_imagen{
-        width: 55vw;
+        width: 60vw;
     }
     
     .portada_imagen > img{
@@ -451,9 +471,8 @@ footer{
     }
     
     .navegacion_info{
-        width: 50%;
-        height: 50%;
-        padding: 30px;
+        width: 40%;
+        padding: 0px;
     }
     
     .navegacion_info > h3{
@@ -462,7 +481,7 @@ footer{
     }
     
     .navegacion_info > p{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
     
     .navegacion_imagenes{
@@ -484,8 +503,8 @@ footer{
     .compra{
         display: flex;
         width: 90vw;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     
     .compra_info{
@@ -604,17 +623,16 @@ footer{
     
     .navegacion_info{
         width: 50%;
-        height: 50%;
         padding: 30px;
     }
     
     .navegacion_info > h3{
-        font-size: 2.2em;
+        font-size: 2.6em;
         padding-bottom: 20px;
     }
     
     .navegacion_info > p{
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
     
     .navegacion_imagenes{
@@ -624,29 +642,29 @@ footer{
     .navegacion_imagenes > img:nth-of-type(1) {
         width: 45%;
         padding-top: 40px;
-        left: 65px;
+        left: 80px;
     }
     
     .navegacion_imagenes > img:nth-of-type(2) {
         width: 95%;
         padding-top: 20px;
-        left: -20px;
+        left: 20px;
     }
     
     .compra{
         display: flex;
         width: 90vw;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     
     .compra_info{
-        width: 60%;
+        width: 50%;
         padding: 40px;
     }
     
     .compra_info > h3{
-        font-size: 3em;
+        font-size: 4em;
         padding-bottom: 20px;
     }
     
