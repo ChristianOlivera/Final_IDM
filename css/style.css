@@ -5,11 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    width: 100%;
-    overflow-x: hidden;
-}
-
 header{
     width: 100%;
     height: 100px;
@@ -285,9 +280,6 @@ footer{
 }
 
 @media screen and (min-width: 426px) and (max-width: 600px) {
-    body{
-        overflow-x: hidden;
-    }
     .portada_imagen > img{
         width: 75vw;
         display: block;
@@ -410,10 +402,7 @@ footer{
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
     header{
-        width: 100vw;
         height: 125px;
-        display: flex;
-        align-items: center;
     }
     
     .logo{
@@ -565,10 +554,7 @@ footer{
 
 @media screen and (min-width: 1025px) {
     header{
-        width: 100vw;
         height: 125px;
-        display: flex;
-        align-items: center;
     }
     
     .logo{
