@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalAskContainer.appendChild(modalAskContent)
 
     const modalAskLogo = document.createElement('img')
-    modalAskLogo.setAttribute('src', '/img/DRINKING.png')
+    modalAskLogo.setAttribute('src', '../img/DRINKING.png')
     modalAskLogo.setAttribute('alt', 'DRINKING')
     modalAskContent.appendChild(modalAskLogo)
 
@@ -127,7 +127,7 @@ links.forEach(link => {
             infoModal.append(infoContainer)
 
             const infoImage = document.createElement('img')
-            infoImage.setAttribute('src', '/img/foto_info.jpg')
+            infoImage.setAttribute('src', '../img/foto_info.jpg')
             infoImage.setAttribute('alt', 'Foto Alumno')
             infoContainer.append(infoImage)
 
@@ -704,7 +704,7 @@ verCarrito.addEventListener('click', () =>{
         checkoutFormPayMp.append(checkoutFormMp)
 
         let checkoutFormMpImg = document.createElement('img')
-        checkoutFormMpImg.setAttribute('src', '/img/mp.png')
+        checkoutFormMpImg.setAttribute('src', '../img/mp.png')
         checkoutFormMpImg.setAttribute('alt', 'Mercado Pago')
         checkoutFormMpImg.className = 'checkout_form_mp_img'
         checkoutFormPayMp.append(checkoutFormMpImg)
@@ -721,7 +721,7 @@ verCarrito.addEventListener('click', () =>{
         checkoutFormPayTb.append(checkoutFormTb)
 
         let checkoutFormTbImg = document.createElement('img')
-        checkoutFormTbImg.setAttribute('src', '/img/tb.png')
+        checkoutFormTbImg.setAttribute('src', '../img/tb.png')
         checkoutFormTbImg.setAttribute('alt', 'Transferencia Bancaria')
         checkoutFormTbImg.className = 'checkout_form_tb_img'
         checkoutFormPayTb.append(checkoutFormTbImg)
@@ -811,7 +811,7 @@ verCarrito.addEventListener('click', () =>{
                 checkoutConteiner.append(successModalContainer)
 
                 let successImg = document.createElement('img')
-                successImg.setAttribute('src', '/img/aceptado.png')
+                successImg.setAttribute('src', '../img/aceptado.png')
                 successImg.setAttribute('alt', 'Aceptado')
                 successImg.className = 'success_img'
                 successModalContainer.append(successImg)
