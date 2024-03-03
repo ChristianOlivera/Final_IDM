@@ -254,41 +254,41 @@ nav > ul > li > a > span{
     color: white;
 }
 #cerveza{
-    background-image: url(/img/cerveza/cerveza.jpg);
+    background-image: url(../img/cerveza/cerveza.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #espumante{
-    background-image: url(/img/espumante/espumante.jpg);
+    background-image: url(../img/espumante/espumante.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #aperitivo{
-    background-image: url(/img/aperitivo/aperitivo.jpg);
+    background-image: url(../img/aperitivo/aperitivo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #vodka{
-    background-image: url(/img/vodka/vodka.jpg);
+    background-image: url(../img/vodka/vodka.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #vino{
-    background-image: url(/img/vino/vino.jpg);
+    background-image: url(../img/vino/vino.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 ul > #link > #combo{
-    background-image: url(/img/combo/combo.jpg);
+    background-image: url(../img/combo/combo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -304,7 +304,7 @@ ul > #link > #combo{
     width: 300px;
     height: 200px;
     margin: auto;
-    background-image: url(/img/banner.png);
+    background-image: url(../img/banner.png);
     z-index: 2;
     border-radius: 0px 10px 0px 0px;
     animation: banner 4s ease 0s 1 normal forwards;
