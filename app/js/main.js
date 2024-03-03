@@ -77,6 +77,7 @@ const logo = document.querySelector('.logo')
 logo.addEventListener('click', () =>{
     header.scrollIntoView({ behavior: 'smooth' })
 })
+let bannerGenerated = false
 
 links.forEach(link => {
     link.addEventListener('click',() => {
@@ -94,6 +95,54 @@ links.forEach(link => {
         titleCategory.className = 'titulo'
         titleCategory.textContent = category.toUpperCase() 
         main.appendChild(titleCategory)
+
+        const datosAlumno = {
+            Alumno: 'Christian Olivera',
+            Carrera: 'Diseño y Desarrollo Web',
+            Materia: 'IDM',
+            Comision: 'DWN2B',
+            Turno: 'Noche',
+            Año: '2024',
+            Cuatrimestre: '2° Cuatrimestre',
+            Docente: 'Pamela Iglesias',
+            Entrega: 'Final',
+        }
+
+        const info = document.createElement('button')
+        info.className = 'info_button'
+        info.textContent = '👨🏽‍💻'
+        main.appendChild(info)
+        info.addEventListener('click', () =>{
+            body.style.overflow = 'hidden'
+            const infoModal = document.createElement('div')
+            infoModal.className = 'info_modal'
+            infoModal.addEventListener('click', () =>{
+                body.style.overflow = 'auto'
+                infoModal.remove()
+            })
+            main.append(infoModal)
+
+            const infoContainer = document.createElement('div')
+            infoContainer.className = 'info_container'
+            infoModal.append(infoContainer)
+
+            const infoImage = document.createElement('img')
+            infoImage.setAttribute('src', '/img/foto_info.jpg')
+            infoImage.setAttribute('alt', 'Foto Alumno')
+            infoContainer.append(infoImage)
+
+            for (const [clave, valor] of Object.entries(datosAlumno)) {
+                const infoData = document.createElement('p')
+                infoData.innerHTML = `<strong>${clave}:</strong> ${valor}`
+                infoContainer.append(infoData)
+            }
+            document.addEventListener('keydown', (event) => {
+                if(event.key === 'Escape'){
+                    infoModal.remove()
+                    body.style.overflow = 'auto'
+                }
+            })
+        })
 
         filteredProducts.forEach(producto => {
 
@@ -167,13 +216,13 @@ links.forEach(link => {
             main.appendChild(cardProduct)
 
             function banner(){
+                bannerGenerated = true
                 let bannerConteiner = document.createElement('div')
                 bannerConteiner.classList.add('banner')
                 main.append(bannerConteiner)
                 
                 let bannerButton = document.createElement('a')
                 bannerButton.className = 'banner_button'
-                bannerButton.textContent = 'NO TE PIERDAS LOS MEJORES COMBOS QUE TENEMOS'
                 bannerButton.addEventListener('click', () =>{
                     const targetCombo = document.querySelector('#combo')
                     targetCombo.click()
@@ -185,7 +234,7 @@ links.forEach(link => {
                 }, 10000)
             }
 
-            if(category !== 'combo'){
+            if(category !== 'combo' && !bannerGenerated){
                 const targetCard = document.querySelector('.titulo')
                 targetCard.scrollIntoView({ behavior: 'smooth' })
                 banner()
@@ -301,9 +350,11 @@ links.forEach(link => {
                 main.appendChild(container_detail)
             }
         })
+        bannerGenerated = false
     })
     
 })
+
 
 function total(){
     return carrito.reduce((acc, producto) => acc + producto.precio * producto.cantidad, 0)
@@ -653,7 +704,7 @@ verCarrito.addEventListener('click', () =>{
         checkoutFormPayMp.append(checkoutFormMp)
 
         let checkoutFormMpImg = document.createElement('img')
-        checkoutFormMpImg.setAttribute('src', './img/mp.png')
+        checkoutFormMpImg.setAttribute('src', '/img/mp.png')
         checkoutFormMpImg.setAttribute('alt', 'Mercado Pago')
         checkoutFormMpImg.className = 'checkout_form_mp_img'
         checkoutFormPayMp.append(checkoutFormMpImg)
@@ -670,7 +721,7 @@ verCarrito.addEventListener('click', () =>{
         checkoutFormPayTb.append(checkoutFormTb)
 
         let checkoutFormTbImg = document.createElement('img')
-        checkoutFormTbImg.setAttribute('src', './img/tb.png')
+        checkoutFormTbImg.setAttribute('src', '/img/tb.png')
         checkoutFormTbImg.setAttribute('alt', 'Transferencia Bancaria')
         checkoutFormTbImg.className = 'checkout_form_tb_img'
         checkoutFormPayTb.append(checkoutFormTbImg)
@@ -760,7 +811,7 @@ verCarrito.addEventListener('click', () =>{
                 checkoutConteiner.append(successModalContainer)
 
                 let successImg = document.createElement('img')
-                successImg.setAttribute('src', './img/aceptado.png')
+                successImg.setAttribute('src', '/img/aceptado.png')
                 successImg.setAttribute('alt', 'Aceptado')
                 successImg.className = 'success_img'
                 successModalContainer.append(successImg)
@@ -773,11 +824,24 @@ verCarrito.addEventListener('click', () =>{
                 successMessage.textContent = 'En breve se comunicaran con usted para coordinar la compra'
                 successModalContainer.append(successMessage)
 
-                setTimeout(() => {
-                    successModalContainer.remove()
-                    checkoutConteiner.remove()
-                    body.style.overflow = 'auto'
-                }, 4000)
+                let countdown = 9
+
+                let countdownDisplay = document.createElement('p')
+                countdownDisplay.textContent = `Volviendo al inicio en ${countdown} segundos`
+                successModalContainer.append(countdownDisplay)
+
+                let countdownInterval = setInterval(() => {
+                    countdown--;
+
+                    if (countdown === 0) {
+                        clearInterval(countdownInterval)
+                        successModalContainer.remove()
+                        checkoutConteiner.remove()
+                        body.style.overflow = 'auto'
+                    } else {
+                        countdownDisplay.textContent = `Volviendo al inicio en ${countdown} segundos`
+                    }
+                }, 1200)
             }
 
         })

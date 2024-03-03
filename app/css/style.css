@@ -96,7 +96,7 @@ h1{
 }
 
 .logo{
-    background-image: url(../img/DRINKING.png);
+    background-image: url(/img/DRINKING.png);
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
@@ -105,6 +105,55 @@ h1{
     margin-left: 20px;
 }
 
+.info_button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 1.6em;
+    background-color: #252525;
+    border: none;
+    box-shadow: #00000029 0px 1px 4px;
+    z-index: 2;
+}
+
+.info_modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #252525d1;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_container{
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.info_container > img{
+    width: 175px;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+
+.info_container > p{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 #carrito{
     width: 200px;
@@ -206,41 +255,41 @@ nav > ul > li > a > span{
     color: white;
 }
 #cerveza{
-    background-image: url(../img/cerveza/cerveza.jpg);
+    background-image: url(/img/cerveza/cerveza.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #espumante{
-    background-image: url(../img/espumante/espumante.jpg);
+    background-image: url(/img/espumante/espumante.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #aperitivo{
-    background-image: url(../img/aperitivo/aperitivo.jpg);
+    background-image: url(/img/aperitivo/aperitivo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #vodka{
-    background-image: url(../img/vodka/vodka.jpg);
+    background-image: url(/img/vodka/vodka.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #vino{
-    background-image: url(../img/vino/vino.jpg);
+    background-image: url(/img/vino/vino.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 ul > #link > #combo{
-    background-image: url(../img/combo/combo.jpg);
+    background-image: url(/img/combo/combo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -252,12 +301,58 @@ ul > #link > #combo{
 
 .banner{
     position: fixed;
-    width: 400px;
     bottom: 0;
-    right: 0;
-    height: 250px;
+    width: 300px;
+    height: 200px;
     margin: auto;
-    background-image: url(../img/vodka/vodka.jpg);
+    background-image: url(/img/banner.png);
+    z-index: 2;
+    border-radius: 0px 10px 0px 0px;
+    animation: banner 4s ease 0s 1 normal forwards;
+}
+
+@keyframes banner {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
 }
 
 .banner_button{
@@ -387,7 +482,7 @@ ul > #link > #combo{
     margin-top: 20px;
     margin-left: 20px;
     padding: 15px;
-    background-image: url(../img/cerrar.png);
+    background-image: url(/img/cerrar.png);
     background-repeat: no-repeat;
     background-position: left;
     cursor: pointer;
@@ -515,7 +610,7 @@ ul > #link > #combo{
     height: 120px;
     border-left: 1px solid #25252570;
     cursor: pointer;
-    background-image: url(../img/borrar.png);
+    background-image: url(/img/borrar.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -547,7 +642,7 @@ ul > #link > #combo{
     transition: 2s all ease;
     width: 32px;
     height: 32px;
-    background-image: url(../img/acercarse.png);
+    background-image: url(/img/acercarse.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -899,16 +994,15 @@ ul > #link > #combo{
     transform: translate(-50%, -50%);
     background-color: #ffffff;
     padding: 40px 60px;
-    border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #2525252c;
 }
 
 .success_img{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 30%;
     margin-bottom: 20px;
 }
 
@@ -919,7 +1013,14 @@ ul > #link > #combo{
 
 .success_modal > p{
     font-size: 1em;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.success_modal > p:nth-last-child(1){
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #252525;
 }
 
 
@@ -1105,6 +1206,55 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .info_button{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 15px;
+        padding: 10px;
+        border-radius: 100px;
+        font-size: 1.6em;
+        background-color: #252525;
+        border: none;
+        box-shadow: #00000029 0px 1px 4px;
+        z-index: 2;
+    }
+    
+    .info_modal{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #252525d1;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info_container{
+        width: 300px;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: white;
+    }
+    
+    .info_container > img{
+        width: 120px;
+        display: block;
+        margin: auto;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .info_container > p{
+        font-size: 1em;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+    
     .modal_carrito{
         width: 70%;
     }
@@ -1192,6 +1342,26 @@ footer {
         margin-top: 15px;
         margin-bottom: 20px;
     }
+    .success_modal{
+        width: 60%;
+    }
+    
+    .success_img{
+        display: block;
+        margin: auto;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    
+    .success_modal > span{
+        display: block;
+        font-size: 1.4em;
+    }
+    
+    .success_modal > p{
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
 
 }
 
@@ -1211,6 +1381,26 @@ footer {
     }
     .modal_container_producto > img{
         width: 30%;
+    }
+    .success_modal{
+        width: 80%;
+    }
+    
+    .success_img{
+        display: block;
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    
+    .success_modal > span{
+        display: block;
+        font-size: 1.4em;
+    }
+    
+    .success_modal > p{
+        font-size: 1.2em;
+        margin-top: 10px;
     }
 }
 
@@ -1320,26 +1510,26 @@ footer {
     }
     
     #cerveza{
-        background-image: url(../img/cerveza/cerveza2.jpg);
+        background-image: url(/img/cerveza/cerveza2.jpg);
     }
     
     #espumante{
-        background-image: url(../img/espumante/espumante2.jpg);
+        background-image: url(/img/espumante/espumante2.jpg);
     }
     
     #aperitivo{
-        background-image: url(../img/aperitivo/aperitivo2.jpg);
+        background-image: url(/img/aperitivo/aperitivo2.jpg);
     }
     
     #vodka{
-        background-image: url(../img/vodka/vodka2.jpg);
+        background-image: url(/img/vodka/vodka2.jpg);
     }
     #vino{
-        background-image: url(../img/vino/vino2.jpg);
+        background-image: url(/img/vino/vino2.jpg);
     }
     
     ul > #link > #combo{
-        background-image: url(../img/combo/combo2.jpg);
+        background-image: url(/img/combo/combo2.jpg);
     }
 
     .checkout_product_info > h3{
@@ -1365,6 +1555,26 @@ footer {
     
     .checkout_product_total{
         font-size: 1.2em;
+    }
+    .success_modal{
+        width: 80%;
+    }
+    
+    .success_img{
+        display: block;
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    
+    .success_modal > span{
+        display: block;
+        font-size: 1.4em;
+    }
+    
+    .success_modal > p{
+        font-size: 1.2em;
+        margin-top: 10px;
     }
 }
 
@@ -1512,5 +1722,26 @@ footer {
 
     .checkout_form > span{
         font-size: 1.6em;
+    }
+
+    .success_modal{
+        width: 85%;
+    }
+    
+    .success_img{
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .success_modal > span{
+        display: block;
+        font-size: 1.2em;
+    }
+    
+    .success_modal > p{
+        font-size: 1em;
+        margin-top: 10px;
     }
 }
