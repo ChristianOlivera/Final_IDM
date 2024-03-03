@@ -5,9 +5,9 @@ const Productos = [
         descripcion: 'Combo Fernet Branca 750ml + 2 Coca Cola 2.25lts',
         precio: 14000,
         imagenes: [
-            '../img/combo/fernet_coca.png',
-            '../img/combo/coca.png',
-            '../img/aperitivo/fernet.png',
+            '/img/combo/fernet_coca.png',
+            '/img/combo/coca.png',
+            '/img/aperitivo/fernet.png',
         ],
         categoria: 'combo',
         cantidad: 1
@@ -18,9 +18,9 @@ const Productos = [
         descripcion: 'Combo Campari 750ml + 2 Cepita Naranja 1lt',
         precio: 8000,
         imagenes: [
-            '../img/combo/campari_cepita.png',
-            '../img/combo/cepita.png',
-            '../img/aperitivo/campari.png',
+            '/img/combo/campari_cepita.png',
+            '/img/combo/cepita.png',
+            '/img/aperitivo/campari.png',
             
         ],
         categoria: 'combo',
@@ -32,9 +32,9 @@ const Productos = [
         descripcion: 'Combo Ron Havana Especial 750 ml + Coca Cola 2,25 lts',
         precio: 14000,
         imagenes: [
-            '../img/combo/havana_coca.png',
-            '../img/combo/coca.png',
-            '../img/combo/havana.png',
+            '/img/combo/havana_coca.png',
+            '/img/combo/coca.png',
+            '/img/combo/havana.png',
         ],
         categoria: 'combo',
         cantidad: 1
@@ -45,9 +45,9 @@ const Productos = [
         descripcion: 'Combo Gancia 950 ml + Sprite 2,25 lts',
         precio: 8000,
         imagenes: [
-            '../img/combo/gancia_sprite.png',
-            '../img/combo/gancia.png',
-            '../img/combo/sprite.png',
+            '/img/combo/gancia_sprite.png',
+            '/img/combo/gancia.png',
+            '/img/combo/sprite.png',
         ],
         categoria: 'combo',
         cantidad: 1
@@ -58,9 +58,9 @@ const Productos = [
         descripcion: 'Combo Smirnoff 700 ml + 4 Speed 473 ml',
         precio: 10000,
         imagenes: [
-            '../img/combo/smirnoff_speed.png',
-            '../img/combo/smirnoff.png',
-            '../img/combo/speed.png',
+            '/img/combo/smirnoff_speed.png',
+            '/img/combo/smirnoff.png',
+            '/img/combo/speed.png',
         ],
         categoria: 'combo',
         cantidad: 1
@@ -71,9 +71,9 @@ const Productos = [
         descripcion: 'Combo Cosecha Tardia Blanco 750 ml + 2 Speed 473 ml',
         precio: 7000,
         imagenes: [
-            '../img/combo/cosecha_speed.png',
-            '../img/combo/cosecha_tardia_blanco.png',
-            '../img/combo/speed.png',
+            '/img/combo/cosecha_speed.png',
+            '/img/combo/cosecha_tardia_blanco.png',
+            '/img/combo/speed.png',
         ],
         categoria: 'combo',
         cantidad: 1
@@ -84,9 +84,9 @@ const Productos = [
         descripcion: 'Combo Smirnoff Bitter Citric 700 ml + 2 Cepita Naranja 1lt',
         precio: 8000,
         imagenes: [
-            '../img/combo/citric_cepita.png',
-            '../img/combo/smirnoff_citric.png',
-            '../img/combo/cepita.png',
+            '/img/combo/citric_cepita.png',
+            '/img/combo/smirnoff_citric.png',
+            '/img/combo/cepita.png',
         ],
         categoria: 'combo',
         cantidad: 1
@@ -97,9 +97,9 @@ const Productos = [
         descripcion: 'Combo Martini Bianco 1000 ml + Sprite 2,25 lts',
         precio: 6000,
         imagenes: [
-            '../img/combo/martini_sprite.png',
-            '../img/combo/martini.png',
-            '../img/combo/sprite.png',
+            '/img/combo/martini_sprite.png',
+            '/img/combo/martini.png',
+            '/img/combo/sprite.png',
         ],
         categoria: 'combo',
         cantidad: 1
@@ -110,10 +110,10 @@ const Productos = [
         descripcion: 'Cerveza Andes Origen Rubia Golden Lata 473 ml',
         precio: 1200,
         imagenes: [
-            '../img/cerveza/andes_rubia.png',
-            '../img/cerveza/andes_rubia_3.png',
-            '../img/cerveza/andes_rubia_2.png',
-            '../img/cerveza/andes_logo.png',
+            '/img/cerveza/andes_rubia.png',
+            '/img/cerveza/andes_rubia_3.png',
+            '/img/cerveza/andes_rubia_2.png',
+            '/img/cerveza/andes_logo.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -124,10 +124,10 @@ const Productos = [
         descripcion: 'Cerveza Andes Origen Roja Red Lata 473 ml',
         precio: 1200,
         imagenes: [
-            '../img/cerveza/andes_roja.png',
-            '../img/cerveza/andes_roja_3.png',
-            '../img/cerveza/andes_roja_2.png',
-            '../img/cerveza/andes_logo.png',
+            '/img/cerveza/andes_roja.png',
+            '/img/cerveza/andes_roja_3.png',
+            '/img/cerveza/andes_roja_2.png',
+            '/img/cerveza/andes_logo.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -138,10 +138,10 @@ const Productos = [
         descripcion: 'Cerveza Andes Origen Negra Black Lata 473 ml',
         precio: 1200,
         imagenes: [
-            '../img/cerveza/andes_negra.png',
-            '../img/cerveza/andes_negra_3.png',
-            '../img/cerveza/andes_negra_2.png',
-            '../img/cerveza/andes_logo.png',
+            '/img/cerveza/andes_negra.png',
+            '/img/cerveza/andes_negra_3.png',
+            '/img/cerveza/andes_negra_2.png',
+            '/img/cerveza/andes_logo.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -152,10 +152,10 @@ const Productos = [
         descripcion: 'Cerveza Andes Origen IPA Andina Lata 473 ml',
         precio: 1200,
         imagenes: [
-            '../img/cerveza/andes_ipa.png',
-            '../img/cerveza/andes_ipa_3.png',
-            '../img/cerveza/andes_ipa_2.png',
-            '../img/cerveza/andes_logo.png',
+            '/img/cerveza/andes_ipa.png',
+            '/img/cerveza/andes_ipa_3.png',
+            '/img/cerveza/andes_ipa_2.png',
+            '/img/cerveza/andes_logo.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -166,7 +166,7 @@ const Productos = [
         descripcion: 'Cerveza Brahma Chopp American Adjunct Lager Rubia Lata 473 ml',
         precio: 800,
         imagenes: [
-            '../img/cerveza/brahma.png',
+            '/img/cerveza/brahma.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -177,7 +177,7 @@ const Productos = [
         descripcion: 'Cerveza Quilmes Clásica American Adjunct Lager Rubia Lata 473 ml',
         precio: 800,
         imagenes: [
-            '../img/cerveza/quilmes.png',
+            '/img/cerveza/quilmes.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -188,7 +188,7 @@ const Productos = [
         descripcion: 'Cerveza Stella Artois Rubia Lata 473 ml',
         precio: 1200,
         imagenes: [
-            '../img/cerveza/stella.png',
+            '/img/cerveza/stella.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -199,7 +199,7 @@ const Productos = [
         descripcion: 'Cerveza Budweiser Rubia Lata 473 ml',
         precio: 1200,
         imagenes: [
-            '../img/cerveza/budweiser.png',
+            '/img/cerveza/budweiser.png',
         ],
         categoria: 'cerveza',
         cantidad: 1
@@ -210,9 +210,9 @@ const Productos = [
         descripcion: 'Aperitivo Fernet Branca botella 750 ml',
         precio: 8000,
         imagenes: [
-            '../img/aperitivo/fernet.png',
-            '../img/aperitivo/fernet_1.png',
-            '../img/aperitivo/fernet_2.png',
+            '/img/aperitivo/fernet.png',
+            '/img/aperitivo/fernet_1.png',
+            '/img/aperitivo/fernet_2.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -223,9 +223,9 @@ const Productos = [
         descripcion: 'Aperitivo Campari Milano botella 750 ml ',
         precio: 6000,
         imagenes: [
-            '../img/aperitivo/campari.png',
-            '../img/aperitivo/campari_2.png',
-            '../img/aperitivo/campari_3.png',
+            '/img/aperitivo/campari.png',
+            '/img/aperitivo/campari_2.png',
+            '/img/aperitivo/campari_3.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -236,9 +236,9 @@ const Productos = [
         descripcion: 'Aperitivo Gancia botella 950 ml',
         precio: 5000,
         imagenes: [
-            '../img/aperitivo/gancia.png',
-            '../img/aperitivo/gancia_2.png',
-            '../img/aperitivo/gancia_3.png',
+            '/img/aperitivo/gancia.png',
+            '/img/aperitivo/gancia_2.png',
+            '/img/aperitivo/gancia_3.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -249,10 +249,10 @@ const Productos = [
         descripcion: 'Aperitivo Martini Bianco botella 1000 ml',
         precio: 4000,
         imagenes: [
-            '../img/aperitivo/martini.png',
-            '../img/aperitivo/martini_2.png',
-            '../img/aperitivo/martini_3.png',
-            '../img/aperitivo/martini_4.png',
+            '/img/aperitivo/martini.png',
+            '/img/aperitivo/martini_2.png',
+            '/img/aperitivo/martini_3.png',
+            '/img/aperitivo/martini_4.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -263,7 +263,7 @@ const Productos = [
         descripcion: 'Aperitivo Buhero Negro botella 700 ml',
         precio: 6500,
         imagenes: [
-            '../img/aperitivo/buhero_negro.png',
+            '/img/aperitivo/buhero_negro.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -274,7 +274,7 @@ const Productos = [
         descripcion: 'Aperitivo Aperol botella 750 ml',
         precio: 5500,
         imagenes: [
-            '../img/aperitivo/aperol.png',
+            '/img/aperitivo/aperol.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -285,7 +285,7 @@ const Productos = [
         descripcion: 'Aperitivo Cinzano botella 950 ml',
         precio: 4000,
         imagenes: [
-            '../img/aperitivo/cinzano.png',
+            '/img/aperitivo/cinzano.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -296,7 +296,7 @@ const Productos = [
         descripcion: 'Aperitivo Cynar botella 750 ml',
         precio: 5000,
         imagenes: [
-            '../img/aperitivo/cynar.png',
+            '/img/aperitivo/cynar.png',
         ],
         categoria: 'aperitivo',
         cantidad: 1
@@ -307,9 +307,9 @@ const Productos = [
         descripcion: 'Vino Tinto Trumpeter Malbec 750ml Botella Rutini Wines',
         precio: 7000,
         imagenes: [
-            '../img/vino/trumpeter.png',
-            '../img/vino/trumpeter_2.png',
-            '../img/vino/trumpeter_3.png',
+            '/img/vino/trumpeter.png',
+            '/img/vino/trumpeter_2.png',
+            '/img/vino/trumpeter_3.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -320,9 +320,9 @@ const Productos = [
         descripcion: 'Vino Portillo Malbec 750ml Botella Salentein Tinto',
         precio: 3000,
         imagenes: [
-            '../img/vino/portillo.png',
-            '../img/vino/portillo_2.png',
-            '../img/vino/portillo_3.png',
+            '/img/vino/portillo.png',
+            '/img/vino/portillo_2.png',
+            '/img/vino/portillo_3.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -333,8 +333,8 @@ const Productos = [
         descripcion: 'Vino Don Valentin Lacrado Malbec 750ml Botella tinto',
         precio: 2500,
         imagenes: [
-            '../img/vino/don_valentin.png',
-            '../img/vino/don_valentin_2.png',
+            '/img/vino/don_valentin.png',
+            '/img/vino/don_valentin_2.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -345,9 +345,9 @@ const Productos = [
         descripcion: 'Vino Cosecha Tardia 750ml Botella Tinto Dulce',
         precio: 3000,
         imagenes: [
-            '../img/vino/cosecha_tardia_tinto.png',
-            '../img/vino/cosecha_tardia_tinto_2.png',
-            '../img/vino/cosecha_tardia_tinto_3.png',
+            '/img/vino/cosecha_tardia_tinto.png',
+            '/img/vino/cosecha_tardia_tinto_2.png',
+            '/img/vino/cosecha_tardia_tinto_3.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -358,7 +358,7 @@ const Productos = [
         descripcion: 'Vino Familia Gascon Cabernet Sauvignon Tinto 750ml',
         precio: 4000,
         imagenes: [
-            '../img/vino/gascon.png',
+            '/img/vino/gascon.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -369,7 +369,7 @@ const Productos = [
         descripcion: 'Vino Santa Filomena Patero botella 1125ml',
         precio: 3000,
         imagenes: [
-            '../img/vino/santa_filomena.png',
+            '/img/vino/santa_filomena.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -380,7 +380,7 @@ const Productos = [
         descripcion: 'Vino Benjamin Torrontes 750ml Nieto Senetiner',
         precio: 3000,
         imagenes: [
-            '../img/vino/benjamin.png',
+            '/img/vino/benjamin.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -391,7 +391,7 @@ const Productos = [
         descripcion: 'Vino Cosecha Tardia 750ml Botella Blanco Dulce',
         precio: 3000,
         imagenes: [
-            '../img/vino/cosecha_tardia_blanco.png',
+            '/img/vino/cosecha_tardia_blanco.png',
         ],
         categoria: 'vino',
         cantidad: 1
@@ -402,9 +402,9 @@ const Productos = [
         descripcion: 'Vodka Absolut Original 1000ml',
         precio: 2000,
         imagenes: [
-            '../img/vodka/absolut.png',
-            '../img/vodka/absolut_2.png',
-            '../img/vodka/absolut_3.png',
+            '/img/vodka/absolut.png',
+            '/img/vodka/absolut_2.png',
+            '/img/vodka/absolut_3.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -415,9 +415,9 @@ const Productos = [
         descripcion: 'Vodka Smirnoff botella 700ml Clasico',
         precio: 5000,
         imagenes: [
-            '../img/vodka/smirnoff.png',
-            '../img/vodka/smirnoff_2.png',
-            '../img/vodka/smirnoff_3.png',
+            '/img/vodka/smirnoff.png',
+            '/img/vodka/smirnoff_2.png',
+            '/img/vodka/smirnoff_3.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -428,9 +428,9 @@ const Productos = [
         descripcion: 'Vodka Skyy botella 750ml Clasico',
         precio: 5000,
         imagenes: [
-            '../img/vodka/skyy.png',
-            '../img/vodka/skyy_2.png',
-            '../img/vodka/skyy_3.png',
+            '/img/vodka/skyy.png',
+            '/img/vodka/skyy_2.png',
+            '/img/vodka/skyy_3.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -441,9 +441,9 @@ const Productos = [
         descripcion: 'Vodka Sernova botella 700ml Original',
         precio: 5500,
         imagenes: [
-            '../img/vodka/sernova.png',
-            '../img/vodka/sernova_2.png',
-            '../img/vodka/sernova_3.png',
+            '/img/vodka/sernova.png',
+            '/img/vodka/sernova_2.png',
+            '/img/vodka/sernova_3.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -454,7 +454,7 @@ const Productos = [
         descripcion: 'Vodka Absolut Mango botella 700ml',
         precio: 15000,
         imagenes: [
-            '../img/vodka/absolut_mango.png',
+            '/img/vodka/absolut_mango.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -465,7 +465,7 @@ const Productos = [
         descripcion: 'Vodka Smirnoff Bitter Citric Grapefruit Lime botella 700ml Clasico',
         precio: 5500,
         imagenes: [
-            '../img/vodka/smirnoff_citric.png',
+            '/img/vodka/smirnoff_citric.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -476,7 +476,7 @@ const Productos = [
         descripcion: 'Vodka Skyy Durazno botella 750ml',
         precio: 5500,
         imagenes: [
-            '../img/vodka/skyy_durazno.png',
+            '/img/vodka/skyy_durazno.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -487,7 +487,7 @@ const Productos = [
         descripcion: 'Vodka Sernova wild Berries botella 700ml',
         precio: 6000,
         imagenes: [
-            '../img/vodka/sernova_berries.png',
+            '/img/vodka/sernova_berries.png',
         ],
         categoria: 'vodka',
         cantidad: 1
@@ -498,7 +498,7 @@ const Productos = [
         descripcion: 'Espumante Chandon Extra Brut botella 750ml',
         precio: 6000,
         imagenes: [
-            '../img/espumante/chandon.png',
+            '/img/espumante/chandon.png',
         ],
         categoria: 'espumante',
         cantidad: 1
@@ -509,7 +509,7 @@ const Productos = [
         descripcion: 'Espumante Chandon Aperitif botella 750ml',
         precio: 6000,
         imagenes: [
-            '../img/espumante/chandon_aperitif.png',
+            '/img/espumante/chandon_aperitif.png',
         ],
         categoria: 'espumante',
         cantidad: 1
@@ -520,7 +520,7 @@ const Productos = [
         descripcion: 'Espumante Chandon Delice botella 750ml',
         precio: 6000,
         imagenes: [
-            '../img/espumante/chandon_delice.png',
+            '/img/espumante/chandon_delice.png',
         ],
         categoria: 'espumante',
         cantidad: 1
@@ -531,7 +531,7 @@ const Productos = [
         descripcion: 'Espumante Mumm Extra Brut botella 750ml',
         precio: 5000,
         imagenes: [
-            '../img/espumante/mumm.png',
+            '/img/espumante/mumm.png',
         ],
         categoria: 'espumante',
         cantidad: 1
@@ -542,7 +542,7 @@ const Productos = [
         descripcion: 'Espumante Selentein Extra Brut botella 750ml',
         precio: 6000,
         imagenes: [
-            '../img/espumante/selentein.png',
+            '/img/espumante/selentein.png',
         ],
         categoria: 'espumante',
         cantidad: 1
@@ -553,7 +553,7 @@ const Productos = [
         descripcion: 'Espumante Trumpeter Extra Brut botella 750ml',
         precio: 6000,
         imagenes: [
-            '../img/espumante/trumpeter.png',
+            '/img/espumante/trumpeter.png',
         ],
         categoria: 'espumante',
         cantidad: 1
@@ -564,7 +564,7 @@ const Productos = [
         descripcion: 'Espumante Cruzat Extra Brut botella 750ml',
         precio: 6000,
         imagenes: [
-            '../img/espumante/cruzat.png',
+            '/img/espumante/cruzat.png',
         ],
         categoria: 'espumante',
         cantidad: 1
@@ -575,7 +575,7 @@ const Productos = [
         descripcion: 'Espumante Navarro Correas Extra Brut botella 750ml',
         precio: 5000,
         imagenes: [
-            '../img/espumante/navarro_correas.png',
+            '/img/espumante/navarro_correas.png',
         ],
         categoria: 'espumante',
         cantidad: 1
